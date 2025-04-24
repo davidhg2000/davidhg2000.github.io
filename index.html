@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio David Herrera</title>
@@ -22,6 +23,115 @@
 <body background="paisaje.jpg">
     <div class="container">
         <h1>Mi primer portfolio</h1>
+
+        <div class="centrado">
+            <img src="2.avif" alt="" class="imagen-redonda">
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/html5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML5</h5>
+                        <p class="card-text">HTML5 es la última versión del lenguaje de marcado HTML, utilizado para estructurar y presentar contenido en la web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/css3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS3</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/js.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bootstrap.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/node.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/sql.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/git.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/github.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/mongo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <ul>
             <li>Web estáticas con HTML5 y CSS3</li>
             <li>Javascript y DOM</li>
@@ -36,21 +146,14 @@
 
     </div>
 
-    <div class="container2">
-        <div class="card">
-        <img src="1.avif" alt="Imagen" style="width:30%">
-          <h4><b>Tema 1</b></h4>
-          <p>Architect & Engineer</p>
-          </div>
-        <div class="card">
-            <img src="2.avif" alt="Imagen" style="width:30%">
-          <h4><b>Tema 2</b></h4>
-          <p>Un arbol</p>
-        </div>
-        </div>
+    <div>
+        <button id="btn-cargar" class="btn btn-primary">Cargar</button>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
