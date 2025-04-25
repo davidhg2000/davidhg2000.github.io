@@ -2,158 +2,248 @@
 <html lang="es">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio David Herrera</title>
-    <meta name="description" content="Portfolio desarrollo web del webmaster en Madrid">
-    <meta name="keywords" content="desarrollo web, madrid">
-    <meta name="author" content="David Herrera de la Cuadra">
-    <meta property=”og:type” content=”website” />
-    <meta property=”og:title” content=”título de tu página o tu post” />
-    <meta property=”og:description” content=”descripción del contenido de la página” />
-    <meta property=”og:image” content=”enlace al archive de la imagen” />
-    <meta property=”og:url” content=”permalink” />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    <title>Portfolio José Antonio Cano</title>
+    <meta name="description" content="Porfolio desarrollo web del webmaster en Toledo">
+    <meta name="keywords" content="desarrollo web, toledo">
+    <meta name="author" content="José Antonio Cano de la Cuadra">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body background="paisaje.jpg">
+<body>
     <div class="container">
-        <h1>Mi primer portfolio</h1>
+        <div class="card text-center">
 
-        <div class="centrado">
-            <img src="2.avif" alt="" class="imagen-redonda">
+            <div class="card text-center">
+
+                <div class="card-body ">
+                    <h1 class="text-center">Portfolio David Herrera</h1>
+                    <figure class="text-center">
+                        <img class="img-fluid retrato" width=100 heigth=auto src="images/teclado.avif"
+                            alt="avatar canodelacuadra">
+    
+                    </figure>
+    
+    
+    
+                    <h5 class="card-title">Desarrollador Web</h5>
+                    <p class="card-text">Push, push from Madrid</p>
+                    <div class="redes text-center">
+                        <a href="#"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-discord"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href=""><i class="bi bi-envelope"></i> </a>
+                    </div>
+    
+                </div>
+    
+            </div>
+
+            <div class="galeria row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/html5.avif"
+                            class="card-img-top" alt="html5">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML 5 <i class="fa-brands fa-html5"></i></h5>
+                            <p class="card-text">
+                                HTML5 es la última versión del lenguaje de marcado HTML, utilizado para estructurar y
+                                presentar contenido en la web
+    
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/css3.avif"
+                            class="card-img-top" alt="css3">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS 3
+                                <i class="fa-brands fa-css3-alt"></i>
+                            </h5>
+                            <p class="card-text">
+                                Última versión del lenguaje de hojas de estilo en cascada, que define la presentación visual
+                                de documentos HTML
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/js.avif" class="card-img-top"
+                            alt="javascript">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fa-brands fa-js"></i>
+                                Javascript y DOM
+                            </h5>
+                            <p class="card-text">
+                                Lenguaje de programación de alto nivel, interpretado, que se utiliza principalmente para
+                                agregar interacciones a páginas
+                                web.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/bootstrap.avif"
+                            class="card-img-top" alt="bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">
+                                Framework de código abierto, una plantilla o conjunto de herramientas para el diseño web,
+                                que facilita la creación de
+                                sitios web responsivos y adaptables a diferentes dispositivos.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/nodejs.avif"
+                            class="card-img-top" alt="node y express">
+                        <div class="card-body">
+                            <h5 class="card-title"> Node y Express</h5>
+                            <p class="card-text">
+                                Entorno de ejecución de JavaScript de código abierto y multiplataforma que permite a los
+                                desarrolladores crear
+                                aplicaciones del lado del servidor y de red con JavaScript.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/react.avif"
+                            class="card-img-top" alt="react">
+                        <div class="card-body">
+                            <h5 class="card-title">React</h5>
+                            <p class="card-text">
+                                React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto
+                                diseñada para crear interfaces
+                                de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/git.avif" class="card-img-top"
+                            alt="git y github">
+                        <div class="card-body">
+                            <h5 class="card-title">Git y Github</h5>
+                            <p class="card-text">
+                                Git es Sistema de control de versiones distribuido, de código abierto, que se utiliza para
+                                rastrear cambios en archivos y
+                                coordinar el trabajo en proyectos de software.
+                                Github es una Plataforma basada en la nube donde puedes almacenar, compartir y trabajar
+                                junto con otros usuarios para escribir código.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/cli.avif" class="card-img-top"
+                            alt="cli y shell">
+                        <div class="card-body">
+                            <h5 class="card-title">Shell y Cli</h5>
+                            <p class="card-text">
+                                Programa que actúa como interfaz entre el usuario y el sistema operativo, permitiendo
+                                interactuar con el sistema a
+                                través de comandos de texto.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/sql.avif" class="card-img-top"
+                            alt="sql y mysql">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL y MySQL</h5>
+                            <p class="card-text">
+                                Lenguaje de consulta y Sistema de gestión de bases de datos relacionales de código abierto,
+                                utilizado para almacenar y gestionar datos
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img width=300 heigth=200 loading="lazy" class="parallax" src="images/wordpress.avif"
+                            class="card-img-top" alt="wordpress">
+                        <div class="card-body">
+                            <h5 class="card-title">Wordpress</h5>
+                            <p class="card-text">
+                                Sistema de gestión de contenidos (CMS) de código abierto y gratuito que permite a los
+                                usuarios crear y gestionar sitios
+                                web, blogs y tiendas online de manera sencilla, sin necesidad de conocimientos técnicos
+                                avanzados.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+    
+            </figure>
+            <footer class="text-center mb-2 mt-2">
+                &copy; 2025 canodelacuadra
+    
+            </footer>
+    
+    
+    
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Portfolio de José Antonio Cano",
+          "itemListElement": [
+            {
+              "@type": "CreativeWork",
+              "position": 1,
+              "name": "Buscador de peliculas",
+              "description": "Buscador de peliculas hecho con react,express y mongodb",
+              "url": "",
+              "dateCreated": "2025-04-25",
+              "inLanguage": "es",
+              "creator": {
+                "@type": "Person",
+                "name": "José Antonioc Cano"
+              },
+              "keywords": "React, Node.js, Express, MongoDB"
+            }
+          ]
+        }
+        </script>
+    </body>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/html5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">HTML5</h5>
-                        <p class="card-text">HTML5 es la última versión del lenguaje de marcado HTML, utilizado para estructurar y presentar contenido en la web.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/css3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS3</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/js.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/bootstrap.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/node.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/sql.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">SQL</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/git.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/github.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/mongo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <ul>
-            <li>Web estáticas con HTML5 y CSS3</li>
-            <li>Javascript y DOM</li>
-            <li>BootStrap</li>
-            <li>Node JS, Express</li>
-            <li>React y Vite</li>
-            <li>Git y Github</li>
-            <li>Shell y CLI</li>
-            <li>SQL, MySQL y MongoDB</li>
-            <li>Wordpress</li>
-        </ul>
-
-    </div>
-
-    <div>
-        <button id="btn-cargar" class="btn btn-primary">Cargar</button>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-     crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
 </html>
